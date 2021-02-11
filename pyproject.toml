@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "limitbri"
+version = "0.1.0"
+description = "Limitbri helps developers manage the execution of functions that can not exceed rate time limits"
+authors = ["axaryk <axaryk@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest-watch = "^4.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+pytest-sugar = "^0.9.4"
+pytest-cov = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
